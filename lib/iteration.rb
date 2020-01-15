@@ -22,9 +22,9 @@ def find_greater_pair(src)
   index = 0 
   new_Array = []
   while src[index]
-    if src[index][0] > src[index][1] {
+    if src[index][0] > src[index][1] 
       new_Array[index] = [src[index][0], src[index][1]]
-    } else {
+    else
       new_Array[index] = [src[index][1], src[index][0]]
     }
     end
