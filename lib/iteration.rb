@@ -40,7 +40,7 @@ def total_even_pairs(src)
   total = 0
   while src[index]
     if src[index][0]%2 == 0 && src[index][1] %2 == 0
-      total += (src[index][0]+src[index][1])
+      total += 2
     end
     index += 1
   end
