@@ -12,6 +12,7 @@ def join_ingredients(src)
     new_Array[index] = "I love #{src[index][0]} and #{src[index][1]} on my pizza"
     index += 1
   }
+  end
   new_Array
 end
 
